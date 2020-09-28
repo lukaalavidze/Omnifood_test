@@ -12,6 +12,8 @@ h1{
     text-transform: uppercase; 
     letter-spacing: 1px;
     word-spacing: 4px;
+    margin-top:0; 
+    margin-bottom:20px;
 }
 .hero-text-box{
     position: absolute;
@@ -21,3 +23,67 @@ h1{
     transform: translate(-50%, -50%);
 }
 
+.btn-full{
+    background-color:  #e67e22;
+    border: 1px solid #e67e22;
+}
+.btn-ghost{
+    border: 1px solid #e67e22; 
+
+}
+.btn:hover,
+.btn:active { 
+    background-color: #cf6d17;
+}
+.Btnfull:hover, 
+.Btn-full:active { 
+    border:1px solid #cf6d17;
+} 
+.Btn-ghost:hover, 
+.Btn-ghost:active { 
+    border: 1px solid #cf6d17; color:#fff;
+} 
+.btn:link,
+.btn:visited{
+    display: inline-block;
+    padding: 10px 30px; 
+    font-weight:300;
+    text-decoration: none;
+    border-radius : 200px;
+    color:#fff;
+    transition: background-color 0.5s, color 0.5s, border 0.5s;
+ }
+ .logo{
+    margin-left: 110px;
+    height: 100px; 
+    width: auto; 
+    float: left;
+    margin-top: 20px;
+ }
+ .main-nav{
+    float: right;
+    margin-right: 120px;
+    list-style: none;
+    margin-top: 50px;
+ }
+ .main-nav li{
+    display: inline-block; 
+    margin-left:40px;
+ }
+ .main-nav li a{
+    color:#fff; 
+    text-decoration: none;
+    text-transform: uppercase; 
+    font-size: 90%;
+ }
+ .main-nav li a:hover, 
+ .main-nav li a:active{
+    border-bottom: 2px solid #e67e22; 
+  } 
+  .main-nav li a:link,
+  .main-nav li a:visited{
+    transition: border 0.5s;
+  }
+  .main-nav li a:link{
+    padding: 8px 0;
+  }

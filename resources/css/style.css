@@ -1,9 +1,11 @@
+/* foni */
 header{
     background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.1)), url(img/hero.jpg);
     height: 100vh;
     background-size: cover;
     background-position: center;
 }
+/* text */
 h1{
     margin: 0;
     color: #fff;
@@ -22,6 +24,7 @@ h1{
     left: 50%; 
     transform: translate(-50%, -50%);
 }
+/* gilakebi */
 
 .btn-full{
     background-color:  #e67e22;
@@ -53,6 +56,7 @@ h1{
     color:#fff;
     transition: background-color 0.5s, color 0.5s, border 0.5s;
  }
+ /* logo */
  .logo{
     margin-left: 110px;
     height: 100px; 
@@ -60,6 +64,7 @@ h1{
     float: left;
     margin-top: 20px;
  }
+ /* navigaciis meniu */
  .main-nav{
     float: right;
     margin-right: 120px;

@@ -1,3 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    background-color: #fff;
+    font-family: 'lato','arial','sans-serif';
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+} 
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
 /* foni */
 header{
     background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.1)), url(img/hero.jpg);
@@ -58,7 +76,6 @@ h1{
  }
  /* logo */
  .logo{
-    margin-left: 110px;
     height: 100px; 
     width: auto; 
     float: left;
@@ -67,7 +84,6 @@ h1{
  /* navigaciis meniu */
  .main-nav{
     float: right;
-    margin-right: 120px;
     list-style: none;
     margin-top: 50px;
  }

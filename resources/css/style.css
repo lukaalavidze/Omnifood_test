@@ -188,4 +188,11 @@ h3{
 .section-meal{
     padding: 0;
 }
-
+/*--- how it work ----*/
+.steps-box{
+    margin-top: 30px;
+}
+.steps-box:first-child{
+    text-align: right;
+    padding-right: 3%;
+}

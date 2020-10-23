@@ -185,10 +185,13 @@ h3{
     transform: scale(1.03);
     opacity: 1;
 }
-.section-meal{
+.section-meals{
     padding: 0;
 }
 /*--- how it work ----*/
+.section-steps{
+    background-color: #f4f4f4;
+}
 .steps-box{
     margin-top: 30px;
 }
@@ -201,4 +204,59 @@ h3{
 }
 .app-screen{
     width: 40%;
+    margin-left: 50%;
+}
+.clearfix{
+    zoom: 1;
+}
+.clearfix::after{
+    content: ".";
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.works-steps div{
+    color: #e67e22;
+    border: 2px solid #e67e22;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    padding: 6px;
+    float: left;
+    font-size: 150%;
+    margin-right: 10px;
+}
+.works-steps{
+    margin-top: 51px;
+}
+.btn-app img{
+    width: 150px;
+    height: auto;
+    margin-top: 50px;
+}
+/*------ cities ------*/
+.box img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    transform: scale(1.15);
+    transition: transform 0.3s;
+}
+.box img:hover{
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    transform: scale(1.05);
+}
+.icon-small{
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    color: #e67e22;
+    font-size: 120%;
+    vertical-align: middle;
+    line-height: 120%;
+    margin-top: -4px;
 }

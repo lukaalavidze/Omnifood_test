@@ -196,3 +196,9 @@ h3{
     text-align: right;
     padding-right: 3%;
 }
+.steps-box:last-child{
+    padding-left: 3%;
+}
+.app-screen{
+    width: 40%;
+}

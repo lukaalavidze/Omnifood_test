@@ -260,3 +260,35 @@ h3{
     line-height: 120%;
     margin-top: -4px;
 }
+/*------- testlimonials ------*/
+.section-testlimonials{
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(img/back-customers.jpg);
+    background-size: cover;
+    color: #fff;
+    background-attachment: fixed;
+}
+blockquote{
+    padding: 1px;
+    font-style: italic;
+    line-height: 145%;
+    position: relative;
+}
+cite{
+    font-size: 90%;
+    margin-top: 25px;
+    display: block;
+}
+cite img{
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+blockquote::before{
+    content: '\201c';
+    font-size: 500%;
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+}
